@@ -1,4 +1,4 @@
-* {
+body {
     margin: 0;
     padding: 0;
     background-color: #d9d2cc;
@@ -6,6 +6,11 @@
 nav{
     background-color: #d9d2cc;
 }
+
+#navbar {
+    background-color: #d9d2cc !important;
+}
+
 .nav-logo {
     font-family: DM Serif Display, serif;
 }
@@ -23,19 +28,19 @@ ul li a:visited {
     color:purple;
 }
 .hero .waviy{
-    height: 200px;
+    height: 100px;
     background-color: #b8a89a;
     position: relative;
 }
 .waviy {
     position: relative;
+    text-align: center;
 }
 .waviy span {
-    position: relative;
     display: inline-block;
     font-size: 40px;
-    animation: flip 6s 10s;
-    animation-delay: calc(.6s *var (--i));
+    animation: flip 2s;
+    animation-delay: calc(.2s *var (--i));
 }
 @keyframes flip {
     0%,80%{
@@ -43,7 +48,8 @@ ul li a:visited {
     }
 }
 .container {
-    background-color: #b8a89a;
+    /* background-color: #b8a89a; */
+    margin-top: 40px;
 }
 .container-carousel {
     width: 600px;
@@ -58,7 +64,28 @@ ul li a:visited {
     height: 200 px;
     background-color:#b8a89a;
     text-align: center;
+}
 
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+#introholder {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#myintro {
+    width: 30%;
+}
+#mypicture {
+    display: flex;
+    justify-content: center;
+    width: 40%;
 }
 /*.card{
     border-radius: 4px;
