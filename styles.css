@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #d9d2cc;
+}
+nav{
+    background-color: #d9d2cc;
+}
+.nav-logo {
+    font-family: DM Serif Display, serif;
+}
+ul li{
+    margin-left: 60px;
+}
+ul li a{
+    text-transform: uppercase;
+    font-size: 18px;
+    color:#fff;
+    text-decoration: none;
+}
+ul li a:hover,
+ul li a:visited {
+    color:purple;
+}
+.hero .waviy{
+    height: 200px;
+    background-color: #b8a89a;
+    position: relative;
+}
+.waviy {
+    position: relative;
+}
+.waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    animation: flip 6s 10s;
+    animation-delay: calc(.6s *var (--i));
+}
+@keyframes flip {
+    0%,80%{
+        transform: rotateY(360deg)
+    }
+}
+.container {
+    background-color: #b8a89a;
+}
+.container-carousel {
+    width: 600px;
+}
+.container-carousel carousel {
+    align-content: center;
+}
+.meinfo img {
+    opacity: 0.5;
+}
+.footer p {
+    height: 200 px;
+    background-color:#b8a89a;
+    text-align: center;
+
+}
+/*.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+/* padding: 14px 80px 18px 36px; */
+/*    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card-img-overlay {*/
+    /* background: rgba(0, 0, 0, 0.5); */
+/*    color: yellow;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.card:hover .card-img-overlay {
+    opacity: 0.5;
+}*/
